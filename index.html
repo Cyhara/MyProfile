@@ -1,36 +1,49 @@
 <!DOCTYPE html>
-<!--Objective: This project is to create a structures personal profile webpage using HTML only, showcasing basic web development skills through a bio, hobbies, and contact details -->
+<!-- 
+  Objective: Create a structured personal profile webpage using HTML, 
+  showcasing basic web development skills through a bio, hobbies, and contact details.
+-->
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>My Profile</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>My Profile</title>
 </head>
 <body>
-    <header>
-        <nav>
-            <ul>
-                <li>About Me</li>
-                <li>Hobbies</li>
-                <li>Contact</li>
-            </ul>
-        </nav>
-    </header>
-    <section>
-        <h1>About Me</h1>
-        <img src="IMG-20210313-WA0001.jpg" alt="Profile Picture">
-        <p>Hi! I am Cynthia. I am a fashion designer.</p>
-    </section>
-    <section>
-        <h2>Hobbies</h2>
-        <ul>
-            <li>Sewing</li>
-            <li>Listening to musics</li>
-            <li>surfing the internet</li>
-        </ul>
-    </section>
-    <footer>
-        <p>Get in touch: <a href="mailto: zoaka.cynthia@yahoo.com">zoaka.cynthia@yahoo.com</a> or follow me on <a href="https://www.linkedin.com/in/cynthia-isa-zoaka-56793413b">@cynthia-isa-zoaka-56793413b</a></p>
-    </footer>
+  <!-- Header with main heading and navigation -->
+  <header>
+    <h1>My Profile</h1>
+    <nav>
+      <ul>
+        <li><a href="#about-me">About Me</a></li>
+        <li><a href="#hobbies">Hobbies</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+  
+  <!-- About Me section -->
+  <section id="about-me">
+    <h2>About Me</h2>
+    <img src="IMG-20210313-WA0001.jpg" alt="Cynthia's Profile Picture" width="200" height="200">
+    <p>Hi! I'm Cynthia, a passionate fashion designer.</p>
+  </section>
+  
+  <!-- Hobbies section -->
+  <section id="hobbies">
+    <h2>Hobbies</h2>
+    <ul>
+      <li>Sewing</li>
+      <li>Listening to music</li>
+      <li>Surfing the internet</li>
+    </ul>
+  </section>
+  
+  <!-- Contact section -->
+  <footer id="contact">
+    <h2>Get in Touch</h2>
+    <p>Email: <a href="mailto:zoaka.cynthia@yahoo.com">zoaka.cynthia@yahoo.com</a></p>
+    <p>LinkedIn: <a href="https://www.linkedin.com/in/cynthia-isa-zoaka-56793413b" target="_blank">@cynthia-isa-zoaka-56793413b</a></p>
+  </footer>
 </body>
 </html>
